@@ -1,0 +1,64 @@
+body{
+	background-color: white;
+	background-image: url('s.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+
+}
+
+.se {
+	position: static;
+	margin-top: 100px;
+}
+
+
+.footer{
+	background-color: #666;
+	font-weight: bold;
+	color: white;
+	/*margin-top: 270px;*/		
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/*to change autofill color from yellow to white */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.wrapper{
+	border:1px solid #000;
+    display:inline-block;
+    position:relative;
+    height: 39px;
+    background-color: white;
+    padding: 2px 2px 2px 10px;
+}
+
+input {
+    background-color:transparent;
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus{
+	outline: none;
+}
+
+#link:visited{
+	color: blue;
+}
+
+#link:hover{
+	color: green;
+}
+
+
+
